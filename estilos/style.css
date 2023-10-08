@@ -4,4 +4,32 @@
 1 - azul mais escuro: #021E73
 2 - azul quase mais escuro: #040DBF
 3 - azul leve: #040FD9
-4 - azul muito leve: #0339A6 */
+4 - azul muito leve: #0339A6 
+
+resolução das telas
+1 - 320px — 480px: dispositivos móveis
+2 - 481px — 768px: iPads, tablets
+3 - 769px — 1024px: telas pequenas, laptops
+4 - 1025px — 1200px: desktops, telas grandes
+5 - 1201px e acima —  telas muito grandes, TVs
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1:#021E73;
+    --cor2:#040DBF;
+    --cor3:#040FD9;
+    --cor04:#0339A6;
+}
+
+body, html {
+    background-color: lightgray;
+}
+
+header {
+    
+}
